@@ -5,3 +5,7 @@
    padding: 50px;
    margin: 50px;
 }
+
+.box-border:first-child{
+   margin-top:0;
+}
