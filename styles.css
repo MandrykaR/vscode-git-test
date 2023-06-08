@@ -39,7 +39,7 @@ input[type="text"]{
 }
 
 div:nth-child(3n-1) p{
-   background-color: red;
+   background-color: yellow;
    border: 5px solid #fff;
 }
 
