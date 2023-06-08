@@ -1,6 +1,6 @@
 .box-border{
    box-sizing: border-box;
-   background-color: aqua;
-   border: 3px solid #000;
+   border: 3px solid aqua;
    padding: 50px;
+   margin: 50px;
 }
