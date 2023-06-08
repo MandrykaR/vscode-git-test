@@ -40,6 +40,9 @@ input[type="text"]{
 
 div:nth-child(3n-1) p{
    background-color: yellow;
+}
+
+div:nth-child(3n-1)>p:last-child{
    border: 5px solid #fff;
 }
 
