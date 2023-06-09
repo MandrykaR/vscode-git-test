@@ -62,21 +62,20 @@ main{
 }
 
 .ear_right{
-    right:calc(-20%);
-    top: calc(-30%);
-    
+    top:-60px;
+    right:-40px;
 }
 
 .ear_left{
-    top: calc(-30%);
-    left: calc(-20%);
+    top: -60px;
+    left:-40px;
 }
 
 .eye{
     position: absolute;
     width: 30px;
     height: 30px;
-    border-radius: 30px;
+    border-radius: 100%;
     background-color: grey;
     margin: 80px 40px 0;
 }
@@ -85,6 +84,3 @@ main{
     right: 0;
 }
 
-.eye_left{
-    left: 0;
-}
