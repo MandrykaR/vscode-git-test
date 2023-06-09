@@ -7,6 +7,7 @@
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
+    z-index: 1;
 }
 
 .navigation{
@@ -21,7 +22,6 @@
 
 .nav-list > li{
     float: left;
-    padding: 0 18px 0 0;
 }
 
 .nav-list > li:last-child{
@@ -29,6 +29,7 @@
 }
 
 main{
+    z-index: 2;
     border-color: beige;
     height: 5000px;
 }
