@@ -10,19 +10,23 @@
     z-index: 1;
 }
 
-.navigation{
+nav{
     height: 40px;
 }
+
 .nav-list{
     list-style:none;
     color: #fff;
     line-height: 2;
     margin:  0 0 0 16px;
+    display: flex;
+    width: 33%;
+    justify-content: space-between;
 }
 
-.nav-list > li{
+/* .nav-list > li{
     float: left;
-}
+} */
 
 .nav-list > li:last-child{
     padding: 0;
@@ -40,8 +44,9 @@ main{
     background-color: aquamarine;
     width: 200px;
     height: 200px;
-    left: calc(50%);
-    top:calc(5%)
+    left: calc(45%);
+    top:calc(10%)
+
 }
 
 .ear{
