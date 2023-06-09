@@ -1,23 +1,23 @@
-
-.box{
-   margin: 50px;
+.box {
    padding: 50px;
    border: 2px solid black;
 }
 
 
-.box-blue{
+.box-blue {
+   margin: 50px;
    background-color: blue;
 }
-.box-yellow{
+
+.box-yellow {
    background-color: yellow;
 }
 
-.box-green{
+.box-green {
    background-color: green;
-   
+
 }
 
-.box-pink{
+.box-pink {
    background-color: pink;
 }
