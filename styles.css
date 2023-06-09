@@ -19,14 +19,11 @@ nav{
     color: #fff;
     line-height: 2;
     margin:  0 0 0 16px;
-    display: flex;
-    width: 33%;
-    justify-content: space-between;
 }
 
-/* .nav-list > li{
+.nav-list > li{
     float: left;
-} */
+}
 
 .nav-list > li:last-child{
     padding: 0;
