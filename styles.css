@@ -17,12 +17,13 @@ nav{
 .nav-list{
     list-style:none;
     color: #fff;
-    line-height: 2;
+
     margin:  0 0 0 16px;
 }
 
 .nav-list > li{
     float: left;
+    line-height: 2;
 }
 
 .nav-list > li:last-child{
