@@ -40,7 +40,7 @@
 
 main{
     z-index: 2;
-    border-color: beige;
+    background-color:beige;
     height: 5000px;
 }
 
