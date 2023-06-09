@@ -1,17 +1,20 @@
-.container{
-   box-sizing:border-box;
-   float:left;
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   float: left;
    width: 50%;
 }
 
-.green{
+.green {
    width: 100px;
    height: 100px;
    background-color: green;
    float: left;
 }
 
-.red{
+.red {
    width: 100px;
    height: 100px;
    background-color: red;
@@ -20,7 +23,6 @@
 
 
 
-
-.footer{
+.footer {
    clear: both;
 }
