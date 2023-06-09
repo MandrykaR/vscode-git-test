@@ -1,33 +1,65 @@
-.marg {
-   margin: 0 0 50px 50px;
-   box-sizing: border-box;
-}
-
-.rectangle {
-   border-radius: 16px;
-   background-color: forestgreen;
-   width: 100px;
-   height: 50px;
-   margin: 50px 0 50px 50px;
-}
-
-.oval {
-   background-color: darkmagenta;
-   width: 100px;
-   height: 50px;
-   border-radius: 100px/50px;
-}
-
-.circlerg {
-   border-radius: 50px;
+div {
+   padding: 16px;
+ }
+ 
+ .child,
+ .parent {
+   border: 2px solid black;
+ }
+ 
+ .child {
+   position: absolute;
+   top: 90px;
+   right: 40px;
+ }
+ 
+ .parent {
+   width: 300px;
+   height: 100px;
+   background-color: yellowgreen;
+ }
+ 
+ .child {
+   background: yellow;
+   position: absolute;
+ }
+ 
+ .tip {
+   opacity: 1;
+   background-color: whitesmoke;
+   padding: 0 8px;
+ }
+ 
+ .green {
    width: 100px;
    height: 100px;
-   background-color: aquamarine;
-}
+   background: green;
+   float: left;
+ }
+ 
+ .container {
+   height: 2000px;
+ }
+ 
 
-.triangle {
-   width: 50px;
-   height: 50px;
-   border: 50px solid transparent;
-   border-top-color: brown;
-}
+ .static-parent{
+   position: static;
+ }
+
+ .relative-parent{
+   position: relative;
+   top: 20px;
+   right: 50px;
+ }
+
+ .absolute-parent{
+   position: absolute;
+   bottom:20px;
+   right: 50px;
+ }
+
+ .fixed-parent{
+   position: fixed;
+   bottom:20px;
+   left: 30px;
+ }
