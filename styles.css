@@ -20,9 +20,8 @@
 
 .nav-list > li{
     padding-right: 16px;
-    height: 40px;
-    display: flex;
-    align-items: center;
+    line-height: 40px;
+
 }
 
 
