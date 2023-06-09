@@ -1,6 +1,6 @@
 .marg {
    margin: 0 0 50px 50px;
-   box-sizing:border-box;
+   box-sizing: border-box;
 }
 
 .rectangle {
@@ -15,7 +15,7 @@
    background-color: darkmagenta;
    width: 100px;
    height: 50px;
-   border-radius: 50px;
+   border-radius: 100px/50px;
 }
 
 .circlerg {
@@ -28,6 +28,6 @@
 .triangle {
    width: 50px;
    height: 50px;
-   border:50px solid transparent;
+   border: 50px solid transparent;
    border-top-color: brown;
 }
