@@ -1,23 +1,33 @@
-.box {
-   padding: 50px;
-   border: 2px solid black;
+.marg {
+   margin: 0 0 50px 50px;
+   box-sizing:border-box;
 }
 
-
-.box-blue {
-   margin: 50px;
-   background-color: blue;
+.rectangle {
+   border-radius: 16px;
+   background-color: forestgreen;
+   width: 100px;
+   height: 50px;
+   margin: 50px 0 50px 50px;
 }
 
-.box-yellow {
-   background-color: yellow;
+.oval {
+   background-color: darkmagenta;
+   width: 100px;
+   height: 50px;
+   border-radius: 50px;
 }
 
-.box-green {
-   background-color: green;
-
+.circlerg {
+   border-radius: 50px;
+   width: 100px;
+   height: 100px;
+   background-color: aquamarine;
 }
 
-.box-pink {
-   background-color: pink;
+.triangle {
+   width: 50px;
+   height: 50px;
+   border:50px solid transparent;
+   border-top-color: brown;
 }
