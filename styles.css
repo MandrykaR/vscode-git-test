@@ -10,7 +10,7 @@
 
 .block{
     flex-grow: 1;
-    flex-grow: 0;
+    flex-shrink: 0;
     min-width: 92px;
     height: 100px;
 }
