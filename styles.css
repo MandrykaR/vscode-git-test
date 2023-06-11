@@ -1,28 +1,40 @@
-*{
-    box-sizing: border-box;
+.dropdown {
+  display: inline-block;
+  position: relative;
+  margin: 16px;
 }
 
-.articles{
-    display: flex;
+.menu-button {
+  display: block;
+  padding: 16px;
+  background-color: darkgreen;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
-.articles div {
-    height: 100px;
-    width: 150px;
-    background-color: beige;
-    margin: 16px;
+.menu-list {
+  position: absolute;
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 120px;
+  z-index: 1;
+  list-style: none;
 }
 
-.cropped{
-    overflow: hidden;
+.menu-item {
+  padding: 16px;
 }
 
-.both-scrolls{
-    overflow: scroll;
-    cursor: all-scroll;
+.dropdown:hover .menu-button {
+  opacity: 1;
 }
 
-.vertical-scroll{
-    overflow: auto;
-    cursor: all-scroll;
+.dropdown:hover .menu-list {
+  display: block;
 }
