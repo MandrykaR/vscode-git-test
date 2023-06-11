@@ -8,7 +8,6 @@ header > h1 {
 
 .articles-list {
   display: flex;
-  flex-direction: column;
 }
 
 .article {
