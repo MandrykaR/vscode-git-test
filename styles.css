@@ -1,19 +1,7 @@
-*{
-    box-sizing: border-box;
+.container div:nth-child(1){
+    display: none;
 }
 
-header > h1 {
-  text-align: center;
-}
-
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.article {
-  flex: 1 0 300px;
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
+.container div:nth-child(2){
+    visibility: hidden;
 }
