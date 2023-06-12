@@ -1,5 +1,9 @@
+* {
+   box-sizing: border-box;
+}
+
 body {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-family: Verdana, sans-serif;
 }
 
 
@@ -8,7 +12,7 @@ h1 {
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;
-   font-size: 71px;
+   font-size: 74px;
    margin: auto;
 }
 
