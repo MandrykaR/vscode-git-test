@@ -1,23 +1,23 @@
-*{
+* {
    list-style-type: none;
 }
 
 
 
-.list{
+.list {
    font-size: 1.5em;
 }
 
-.list:last-child li{
+.first {
    text-decoration: underline;
    text-decoration-color: green;
 }
 
-.list li:nth-child(3){
+.second {
    text-decoration: line-through;
 }
 
-.list li:first-child{
-   text-decoration:overline;
-   text-decoration-color: red; 
+.third {
+   text-decoration: overline;
+   text-decoration-color: red;
 }
