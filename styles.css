@@ -10,9 +10,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-weight: 700;
-    color: #fff;
-    padding-top: 32px;
-    text-align: center;
+
 }
 
+h2{
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 32px;
+    margin: 0;
+}
