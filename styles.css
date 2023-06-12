@@ -1,4 +1,4 @@
-body {
+section {
    margin: 32px;
    font-family: Roboto, "sans-serif";
    font-size: 18px;
@@ -14,17 +14,18 @@ p {
    line-height: 28px;
 }
 
-b{
+.technologies{
    letter-spacing: 3px;
    font-size: 24px;
    opacity: 0.8;
    text-decoration: underline;
+   font-weight: 900;
 }
 
-a{
+a {
    text-decoration: none;
 }
 
-em{
-   color:grey;
+em {
+   color: grey;
 }
