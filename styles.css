@@ -1,26 +1,23 @@
-* {
-   box-sizing: border-box;
-}
-
-body {
-   font-family: Verdana, sans-serif;
+*{
+   list-style-type: none;
 }
 
 
-h1 {
-   width: 50vw;
-   overflow: hidden;
-   white-space: nowrap;
-   text-overflow: ellipsis;
-   font-size: 74px;
-   margin: auto;
+
+.list{
+   font-size: 1.5em;
 }
 
-div {
-   height: 200px;
-   background-color: coral;
-   color: #fff;
-   text-transform: uppercase;
-   text-align: center;
-   line-height: 200px;
+.list:last-child li{
+   text-decoration: underline;
+   text-decoration-color: green;
+}
+
+.list li:nth-child(3){
+   text-decoration: line-through;
+}
+
+.list li:first-child{
+   text-decoration:overline;
+   text-decoration-color: red; 
 }
