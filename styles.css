@@ -1,5 +1,7 @@
 body{
     font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 .properties-list__item{
