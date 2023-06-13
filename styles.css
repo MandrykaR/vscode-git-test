@@ -1,5 +1,7 @@
 .rectangle{
     background-color: blueviolet;
+    width: 100px;
+    height: 100px;;
 }
 
 p.text::first-letter {
