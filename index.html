@@ -15,33 +15,35 @@
   <body>
     <form action="">
       <div>
-        <input value="Emerson" name="lastName" type="" />
+        <label for="Last Name">Last Name</label>
+        <input readonly value="Emerson" name="lastName" type="" />
       </div>
 
       <div>
-        <input value="17" name="age" type="number" />
+        <label for="Age">Age</label>
+        <input value="17" min="3" max="10" name="age" type="number" required />
       </div>
 
       <div>
         <input
-
+          disabled
           type="checkbox"
           name="agree"
           id=""
         />
-        <label>Accept terms and conditions</label>
+        <label for="Accept terms and conditions">Accept terms and conditions</label>
       </div>
 
       <div class="choose-gender">
         <input type="radio" name="gender" checked />
-        <label>Male</label>
+        <label for="Male">Male</label>
         <input type="radio" name="gender" />
-        <label>Female</label>
+        <label for="Female">Female</label>
         <input type="radio" name="gender" />
-        <label>Secret</label>
+        <label for="Secret">Secret</label>
       </div>
       <div>
-        <textarea name="description" placeholder="Write description..."></textarea>
+        <textarea maxlength="10" name="description" placeholder="Write description..."></textarea>
       </div>
       <div>
         <button type="submit">Submit</button>
