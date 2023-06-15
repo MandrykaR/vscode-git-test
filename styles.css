@@ -9,7 +9,7 @@ div.image_container{
 .img_wf{
     display: block;
     max-width: 100%;
-    margin: 20px auto 0 ;
+    margin:auto;
     border-radius: 20px;
 }
 
