@@ -1,6 +1,5 @@
-video{
+iframe{
+    margin: 100px 0;
     width: 500px;
-    display: flex;
-    margin: auto;
-    margin-top: 200px;
+    height: 400px;
 }
