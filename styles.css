@@ -8,7 +8,7 @@ body {
    font-size: 16px;
 }
 
-.form-control {
+.form-control{
    margin-bottom: 8px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 input:invalid {
-   border-color: #ff0000;
+   border: 3px solid wef#ff0000;
    ;
 }
 
