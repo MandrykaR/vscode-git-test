@@ -54,12 +54,8 @@ img {
   display: block;
 }
 
-/* Указываем понятную периодичность в потоке данных у article*/
-article > * + * {
-  margin-top: 1em;
-}
 
-/* Наследуем шрифты для инпутов и кнопок */
+Наследуем шрифты для инпутов и кнопок
 input,
 button,
 textarea,
@@ -76,6 +72,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* _________________________________________ */
+
 
 body {
   background-color: bisque;
