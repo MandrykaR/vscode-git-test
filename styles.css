@@ -14,7 +14,6 @@ body {
   position: relative;
 }
 
-
 .login-form {
   position: absolute;
   left: 50%;
@@ -32,8 +31,8 @@ body {
   text-align: center;
 }
 
-.form-control{
-   margin-bottom: 8px;
+.form-control {
+  margin-bottom: 8px;
 }
 
 .form-input {
@@ -44,22 +43,18 @@ body {
   padding: 4px;
 }
 
-.form-label{
-   display: inline-block;
-   margin-bottom: 4px;
+.form-label {
+  display: inline-block;
+  margin-bottom: 4px;
 }
-
-
 
 input:invalid {
   border: 3px solid #ff0000;
 }
 
-.form-control:nth-child(4){
-   margin-bottom: 16px;
-}
 
 .submit-button {
+  margin-top: 16px;
   width: 100%;
   height: 32px;
   background-color: #ff7f50;
