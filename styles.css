@@ -1,4 +1,3 @@
-/* Указываем box sizing */
 *,
 *::before,
 *::after {
@@ -10,18 +9,14 @@ body {
   background-color: bisque;
   font-family: monospace, sans-serif;
   font-size: 16px;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
 }
 
 button {
-   padding: 0;
-   border: none;
-   font: inherit;
-   color: inherit;
-   background-color: transparent;
- }
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
 
 .page {
   height: 100vh;
@@ -38,7 +33,6 @@ button {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   background-color: aqua;
   margin: auto auto;
-  z-index: 1;
 }
 
 .form-title {
@@ -56,22 +50,16 @@ button {
   border: 1px solid #808080;
   width: 100%;
   padding: 4px;
-  -webkit-box-shadow: none;
-  background-image:none;
 }
 
 .form-label {
-   font-size: 16px;
-   padding: 0;
-   margin: 0;
   display: inline-block;
-  margin-bottom:4px;
+  margin-bottom: 4px;
 }
 
 input:invalid {
   border: 3px solid #ff0000;
 }
-
 
 .submit-button {
   margin-top: 16px;
@@ -82,4 +70,3 @@ input:invalid {
   color: #fff;
   border-radius: 4px;
 }
-
