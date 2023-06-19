@@ -1,14 +1,22 @@
 * {
-  font-size: 16px;
   box-sizing: border-box;
+  outline: none;
 }
-
-/*--------------------*/
 
 body {
   background-color: bisque;
   font-family: monospace, sans-serif;
+  font-size: 16px;
 }
+
+button {
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   background-color: transparent;
+
+ }
 
 .page {
   height: 100vh;
@@ -29,7 +37,6 @@ body {
 }
 
 .form-title {
-  font-size: 16px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -56,6 +63,7 @@ body {
 input:invalid {
   border: 3px solid #ff0000;
 }
+
 
 .submit-button {
   margin-top: 16px;
