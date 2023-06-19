@@ -3,6 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -20,7 +21,6 @@ button {
    font: inherit;
    color: inherit;
    background-color: transparent;
-
  }
 
 .page {
@@ -56,13 +56,17 @@ button {
   border: 1px solid #808080;
   width: 100%;
   padding: 4px;
-  z-index: 5;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+  background-image:none;
+  border:none;
 }
 
 .form-label {
+   font-size: 16px;
+   padding: 0;
+   margin: 0;
   display: inline-block;
-  margin-bottom: 3px;
+  margin-bottom:4px;
 }
 
 input:invalid {
@@ -79,3 +83,4 @@ input:invalid {
   color: #fff;
   border-radius: 4px;
 }
+
