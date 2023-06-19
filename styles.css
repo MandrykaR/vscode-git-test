@@ -1,12 +1,36 @@
-* {
-  box-sizing: border-box;
-  outline: none;
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+   
 }
+
+a, a:link, a:visited  {
+   text-decoration: none;
+}
+
+
+
+button, input[type="submit"] {
+   display: inline-block;
+   box-shadow: none;
+   background-color: transparent;
+   background: none;
+   cursor: pointer;
+}
+
 
 body {
   background-color: bisque;
   font-family: monospace, sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
 }
 
 button {
